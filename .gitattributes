@@ -1,4 +1,4 @@
 # AIRA Sovereign Language Identity
 # 100% Pure .aira Codebase
-*.aira linguist-language=Aira
+*.aira linguist-language=Python
 *.aira linguist-detectable=true
