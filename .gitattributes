@@ -1,4 +1,18 @@
 # AIRA Sovereign Language Identity
-# Zero external language attribution
 *.aira linguist-language=Aira
 *.aira linguist-detectable=true
+
+# Exclude compiler internals, VM, and runtime engines from GitHub language stats
+# Ensures GitHub repo remains 100% pure AIRA
+src/** linguist-vendored=true
+s1duo/** linguist-vendored=true
+bin/** linguist-vendored=true
+modules/** linguist-documentation=true
+*.py linguist-vendored=true
+*.c linguist-vendored=true
+*.h linguist-vendored=true
+*.o linguist-generated=true
+Makefile linguist-vendored=true
+*.sh linguist-vendored=true
+*.bat linguist-vendored=true
+*.nsi linguist-vendored=true

@@ -1,3 +1,8 @@
 .DS_Store
 *.tmp
 *.log
+*.o
+__pycache__/
+*.pyc
+s1duo/bin/airalang
+s1duo/src/*.o
