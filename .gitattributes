@@ -1,2 +1,2 @@
-*.aira linguist-language=Aira
+*.aira linguist-language=TypeScript
 *.aira linguist-detectable=true
