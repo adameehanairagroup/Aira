@@ -2,3 +2,7 @@
 # 100% Pure .aira Codebase
 *.aira linguist-language=Aira
 *.aira linguist-detectable=true
+
+# Documentation & Assets
+*.md linguist-documentation=true
+assets/** linguist-documentation=true
