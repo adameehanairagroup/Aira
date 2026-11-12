@@ -147,6 +147,32 @@ GitHub Linguist classifies this repository as **100% Pure AIRA**.
 
 ---
 
+## 📦 Sovereign Package Manager :: `distnory`
+
+AIRA comes bundled with its official, sovereign package and module manager: **`distnory`** (Distribution + Directory).
+
+```bash
+# Initialize a new distnory manifest in your project
+distnory init
+# or: aira distnory init
+
+# List available standard library domains (5,141 modules)
+distnory list
+
+# Inspect module domain details
+distnory info ai
+
+# Search standard library and registry
+distnory search quantum
+
+# Link or install a domain into your project
+distnory install crypto
+```
+
+Project manifests are declared via [`distnory.json`](./distnory.json) with zero external package manager dependencies.
+
+---
+
 ## 👑 Executive Credits
 
 * **Principal Architect:** Er. Adam Eehan

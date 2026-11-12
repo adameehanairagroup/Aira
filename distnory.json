@@ -1,0 +1,41 @@
+{
+  "name": "aira-standard-library",
+  "version": "5.0.0-TitanSovereign",
+  "description": "AIRA Sovereign Universal Standard Library (5,141 Pure .aira Modules)",
+  "architect": "Er. Adam Eehan",
+  "organization": "Aira Group of Technology",
+  "homepage": "https://github.com/adameehanairagroup/Aira",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adameehanairagroup/Aira.git"
+  },
+  "license": "MIT",
+  "main": "welcome.aira",
+  "domains": [
+    "ai",
+    "sys",
+    "math",
+    "crypto",
+    "telecom",
+    "collections",
+    "net",
+    "data",
+    "quantum",
+    "compiler",
+    "robotics",
+    "web",
+    "sec",
+    "iot",
+    "graphics",
+    "game",
+    "rust",
+    "media",
+    "cpp"
+  ],
+  "purity": {
+    "language": "AIRA",
+    "percentage": 100,
+    "python": 0,
+    "c": 0
+  }
+}
