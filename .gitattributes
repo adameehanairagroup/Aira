@@ -1,2 +1,4 @@
-*.aira linguist-language=TypeScript
+# AIRA Sovereign Language Identity
+# Zero external language attribution
+*.aira linguist-language=Aira
 *.aira linguist-detectable=true
