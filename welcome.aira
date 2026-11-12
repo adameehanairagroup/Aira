@@ -1,21 +1,15 @@
-// ==============================================================================
-// Welcome to AiraLang v1.6.0 — World's First AI-Native Programming Language
-// Engineered by Adam Eehan (Founder & CEO, Aira Group of Technology)
-// ==============================================================================
+// =============================================================================
+// Welcome to AIRA — The World's Largest Sovereign AI-Native Systems Language
+// Engineered by Er. Adam Eehan (Founder & CEO, Aira Group of Technology)
+// =============================================================================
 
-import "ai" from "airaai";
-
-say "=================================================";
-say "  🚀 Welcome to AiraLang v1.6.0 on Windows!";
-say "  Architect: Adam Eehan (Aira Group of Technology)";
+say "=====================================================================";
+say "  👑 Welcome to AIRA — The World's First Sovereign AI-Native Language";
+say "  🏛️ Architect: Er. Adam Eehan (Aira Group of Technology)";
+say "  🌍 Scale: 1,100+ Folders | 2,200+ Pure .aira Modules | 100% Purity";
+say "  🧠 Inbuilt Zero-Key AI: Active via ai.ask()";
 say "  Code the Higher Tomorrow.";
-say "=================================================";
+say "=====================================================================";
 
-// Connect to Sovereign Swarm (Zero-Key out of the box)
-ai.set_provider("airagroup/aira-3-flash");
-
-let greeting = ai.ask("Say Hello to the developer from AiraLang!");
-say "AI Engine Response:", greeting;
-
-// In-Code AI Inspection Directive
-@airaai "any errors?";
+let greeting = "Hello from AIRA Sovereign Systems!";
+say greeting;

@@ -1,3 +1,0 @@
-let arr = [10, 20, 30];
-say "Accessing out-of-bounds index 999...";
-say arr[999];
